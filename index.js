@@ -24,6 +24,6 @@ dbConnection.then(() => {
   const server = http.createServer(app);
 
   server.listen(config.app.port, () => {
-    console.log(`Server has started on port-${config.app.port}`);
+    console.log(`Server has started on port: ${config.app.port}`);
   });
 });
